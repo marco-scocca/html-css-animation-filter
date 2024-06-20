@@ -87,3 +87,29 @@
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
 }
+
+.ex-7-img:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    width: 1000px;
+}
+
+.ex-7-img {
+    width: 500px;
+    transition: 3s;
+}
+
+.ex-8-img {
+    width: 500px;
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    border-radius: 50px;
+    width: 100px;
+}
