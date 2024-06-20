@@ -1,0 +1,12 @@
+.ex-1-square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    animation-name: color-red;
+    transition: 3s;
+
+}
+
+.ex-1-square:hover {
+    background-color: red;
+}
