@@ -113,3 +113,28 @@
     border-radius: 50px;
     width: 100px;
 }
+
+
+.ex-9-img {
+    margin: 50px 100px;
+    width: 400px;
+    animation-name: resize;
+    animation-duration: 4s;
+}
+
+
+
+
+
+@keyframes resize {
+    from {
+        width: 400px;
+        border-radius: 0px;
+    }
+
+    to {
+        width: 200px;
+        border-radius: 50px;
+        filter: grayscale(100%);
+    }
+}
