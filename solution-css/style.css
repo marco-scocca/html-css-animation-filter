@@ -160,3 +160,19 @@
         transform: rotate(360deg);
     }
 }
+
+
+
+
+
+
+.ex-11-icon {
+    font-size: 60px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+.ex-11-icon:hover {
+    transform: rotate(280deg);
+    transition: all 0.3s ease-in-out 0s;
+}
