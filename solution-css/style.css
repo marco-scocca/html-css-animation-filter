@@ -136,5 +136,27 @@
         width: 200px;
         border-radius: 50px;
         filter: grayscale(100%);
+        transform: rotate(-0.25turn);
+    }
+}
+
+
+.ex-10-icon {
+    font-size: 60px;
+    animation-name: rotation;
+}
+
+
+.rotate {
+    animation: rotation infinite 3s linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
     }
 }
